@@ -1,0 +1,15 @@
+.card {
+background-color: rgb(21, 45, 53);
+color: white;
+margin-top: 10%;
+}
+
+.footer {
+position: fixed;
+bottom: 5px;
+width: 100%;
+background-color: #1E3957;
+color: white;
+text-align: center;
+padding:5px;
+}

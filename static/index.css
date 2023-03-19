@@ -1,0 +1,29 @@
+footer {
+position: fixed;
+bottom: 0px;
+width: 100%;
+background-color: #1E3957;
+color: white;
+text-align: center;
+padding:5px;
+margin-top: 25px;
+}
+
+.container {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.jumbotron{
+    background-color: #E0DFD5;
+    padding: 2%;
+    margin: 3%;
+    border-radius: 5px;
+}
+
+.btn{
+    background-color: #313638;
+}

@@ -1,0 +1,26 @@
+.vc {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hc {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #F06543;
+
+}
+
+.btn-primary{
+    background-color: #313638;
+    border: #313638;
+}
