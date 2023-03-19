@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Previous Record
+{% endblock %}
+
+{% block main %}
+
+    <link rel="stylesheet" href="static/result.css">
+
+    <div class="vc">
+        <div class="hc">
+
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Previous Record</h3>
+                    <hr>
+                    <p class="card-text">You were  detected with covid!</p>
+                    <a href="/analyse" class="btn btn-primary">Check Again</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

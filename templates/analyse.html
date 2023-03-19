@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Guide
+{% endblock %}
+
+{% block main %}
+
+    <link rel="stylesheet" href="static/analyse.css">
+
+           <div class="card text-center w-25 p-3 mx-auto " style="width: 5rem;">
+              <h3 class="card-header">Upload CT Scan</h3>
+              <div class="card-body">
+                   <form action="/analyse" method="post" enctype="multipart/form-data">
+                         <input type="file" id="file" name="file">
+                        <button class="btn btn-primary" type="submit">Upload</button>
+                    </form>
+              </div>
+            </div>
+
+{% endblock %}

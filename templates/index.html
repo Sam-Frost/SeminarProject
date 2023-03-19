@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Homepage
+{% endblock %}
+
+{% block main %}
+
+    <link rel="stylesheet" href="static/index.css">
+    <div class="jumbotron">
+         <h1 class="display-4">Covid-19 Detection Using VGG19</h1>
+         <p class="lead">This website detects if a person is infected with coronavirus or not by looking at the X-Ray of their lungs.</p>
+         <hr class="my-4">
+         <p>This application is powered by algorithm provided by Dr. Komal Jindal</p>
+         <p class="lead">
+             <a class="btn btn-primary btn-lg" href="https://uk.mathworks.com/help/deeplearning/ref/vgg19.html" role="button">Learn more about VGG19</a>
+         </p>
+    </div>
+
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/static/images/covid_lung.jpeg" class="card-img-top" alt="COVID LUNGS">
+            <div class="card-body">
+                <p class="card-text">This is a X-Ray sample of Covid-19 infected pair of lungs.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/static/images/guess.png" class="card-img-top" alt="GUESS">
+            <div class="card-body">
+                <p class="card-text">Guess the covid status of the following lungs. Go Analyse</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/static/images/normal_lung.png" class="card-img-top" alt="NON COVID LUNGS">
+            <div class="card-body">
+                <p class="card-text">This is a X-Ray sample of Covid-19 uninfected pair of lungs.</p>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}

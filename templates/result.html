@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Result
+{% endblock %}
+
+{% block main %}
+
+    <link rel="stylesheet" href="static/result.css">
+
+    <div class="vc">
+        <div class="hc">
+
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Result</h3>
+                    <hr>
+                    {% if data == True %}
+                        <p class="card-text">You have been detected with covid!</p>
+                    {% else %}        
+                        <p class="card-text">You have NOT been detected with covid!</p>
+                    {% endif %}
+
+                    <a href="/analyse" class="btn btn-primary">Check Again</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
